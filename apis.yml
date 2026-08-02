@@ -1,8 +1,25 @@
 aid: trust
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trust.png
 name: Trust
-description: Trust is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Trust (Trust Software Inc., trust.co) was a fintech and marketing-technology
+  startup founded in 2019 by James Borow, backed by a 2020 seed investment from Lightspeed
+  Venture Partners. It began as a corporate card and community giving digital businesses
+  higher credit limits and extended payment terms on marketing spend, then pivoted
+  to Market (withmarket.com), an AI marketing assistant that let Shopify merchants
+  chat with their business data. As of July 2026 both trust.co and withmarket.com
+  no longer resolve in DNS and the company appears to have wound down. No public
+  API, developer portal, or SDK surface was ever published.
 url: https://raw.githubusercontent.com/api-evangelist/trust/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +27,32 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence:
+- trust.co and www.trust.co return NXDOMAIN (no A/NS records) as of 2026-07-21
+- withmarket.com and www.withmarket.com return NXDOMAIN as of 2026-07-21
+- last Wayback Machine capture of trust.co 2024-09-10; of withmarket.com 2023-12-07
+- final trust.co homepage pointed to the Market platform at WithMarket.com (Trust
+  Software Inc.)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- FinTech
+- Marketing
+- Artificial Intelligence
+- eCommerce
+- Advertising
+- Credit Cards
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
