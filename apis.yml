@@ -34,7 +34,7 @@ x-status-evidence:
 - last Wayback Machine capture of trust.co 2024-09-10; of withmarket.com 2023-12-07
 - final trust.co homepage pointed to the Market platform at WithMarket.com (Trust
   Software Inc.)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
