@@ -45,7 +45,7 @@ x-status-evidence:
 - final trust.co homepage pointed to the Market platform at WithMarket.com (Trust Software Inc.)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Fintech
@@ -54,6 +54,7 @@ tags:
 - E-Commerce
 - Advertising
 - Credit Cards
+- Defunct
 tags_raw:
 - Company
 - FinTech
@@ -62,6 +63,7 @@ tags_raw:
 - eCommerce
 - Advertising
 - Credit Cards
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
