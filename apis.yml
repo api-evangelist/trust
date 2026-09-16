@@ -23,14 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trust.png
 name: Trust
-description: Trust (Trust Software Inc., trust.co) was a fintech and marketing-technology
-  startup founded in 2019 by James Borow, backed by a 2020 seed investment from Lightspeed
-  Venture Partners. It began as a corporate card and community giving digital businesses
-  higher credit limits and extended payment terms on marketing spend, then pivoted
-  to Market (withmarket.com), an AI marketing assistant that let Shopify merchants
-  chat with their business data. As of July 2026 both trust.co and withmarket.com
-  no longer resolve in DNS and the company appears to have wound down. No public
-  API, developer portal, or SDK surface was ever published.
+description: Trust (Trust Software Inc., trust.co) was a fintech and marketing-technology startup founded
+  in 2019 by James Borow, backed by a 2020 seed investment from Lightspeed Venture Partners. It began
+  as a corporate card and community giving digital businesses higher credit limits and extended payment
+  terms on marketing spend, then pivoted to Market (withmarket.com), an AI marketing assistant that let
+  Shopify merchants chat with their business data. As of July 2026 both trust.co and withmarket.com no
+  longer resolve in DNS and the company appears to have wound down. No public API, developer portal, or
+  SDK surface was ever published.
 url: https://raw.githubusercontent.com/api-evangelist/trust/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -43,11 +42,10 @@ x-status-evidence:
 - trust.co and www.trust.co return NXDOMAIN (no A/NS records) as of 2026-07-21
 - withmarket.com and www.withmarket.com return NXDOMAIN as of 2026-07-21
 - last Wayback Machine capture of trust.co 2024-09-10; of withmarket.com 2023-12-07
-- final trust.co homepage pointed to the Market platform at WithMarket.com (Trust
-  Software Inc.)
+- final trust.co homepage pointed to the Market platform at WithMarket.com (Trust Software Inc.)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Fintech
@@ -56,6 +54,7 @@ tags:
 - E-Commerce
 - Advertising
 - Credit Cards
+- Defunct
 tags_raw:
 - Company
 - FinTech
